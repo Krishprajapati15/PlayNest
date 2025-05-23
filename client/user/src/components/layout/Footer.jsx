@@ -1,13 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 shadow-inner py-8 px-4 transition-colors duration-300">
+    <footer className="bg-base-100 border-t border-slate-200 dark:border-slate-800 shadow-inner py-8 px-4 transition-colors duration-300">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-6">
         <div className="flex items-center gap-3">
-          <img
-            src="/logo.png"
-            alt="PlayNest"
-            className="h-10 w-10 rounded-md shadow border border-indigo-100 dark:border-indigo-900"
-          />
+          <img src="/logo.png" alt="PlayNest" className="h-10 w-10 " />
           <span className="text-2xl font-extrabold text-indigo-700 dark:text-indigo-200 tracking-tight select-none">
             PlayNest
           </span>

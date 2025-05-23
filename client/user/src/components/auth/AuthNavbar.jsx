@@ -59,7 +59,7 @@ export default function AuthNavbar() {
             alt="TurfSpot"
             className="h-10 w-10 mask mask-squircle"
           />
-          TurfSpot
+          PlayNest
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
