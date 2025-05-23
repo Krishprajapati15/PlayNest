@@ -1,102 +1,177 @@
-# TurfSpot
+<div align="center">
+  <h1>🎯 PlayNest</h1>
+  <p>The Ultimate Turf & Sports Booking Platform</p>
+  
+  [![User Portal](https://img.shields.io/badge/User_Portal-Visit%20Site-4F46E5?style=for-the-badge)](https://play-nest.vercel.app/)
+  [![Owner Portal](https://img.shields.io/badge/Owner_Portal-Visit%20Site-10B981?style=for-the-badge)](https://play-nest-owner.vercel.app/)
+  
+  ![Made with React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+</div>
 
-TurfSpot is a comprehensive turf booking application with three modules: Admin, Owner, and User. This app allows users to view and book turf grounds, owners to manage their turfs and bookings, and admins to oversee all activities within the platform.
+---
 
-## Features
+## 🌟 Overview
 
-### User Module
+PlayNest is a comprehensive turf booking platform designed to streamline the process for users, owners, and administrators. It's divided into three distinct modules: **Admin**, **Owner**, and **User**, ensuring a tailored experience for every participant. Whether you're looking to book a turf, manage your facility, or oversee the entire ecosystem, PlayNest has you covered.
 
-- **Browse Turfs**: Users can view various turfs, check their details, and select time slots for booking.
-- **Slot Booking**: Purchase time slots using Razorpay. After booking, users receive a confirmation email with all the booking details, including price, turf name, start time, end time, and a QR code containing all these details.
-- **Rate Turfs**: Users can provide ratings for the turfs they have booked.
-- **Become Owner**: Users can apply to become turf owners by filling out a form. Admins will review the application and send an approval or rejection email accordingly.
+---
 
-### Owner Module
+## 🚀 Experience the Live Demo
 
-- **Turf Management**: Owners can add new turfs, manage their existing turfs, and view all related booking details.
-- **Dashboard**: Owners have access to a dashboard where they can view transactions and booking statistics in a graphical format.
-- **Review Management**: Owners can view and manage reviews left by users for their turfs.
+Ready to see PlayNest in action? Explore our live portals:
 
-### Admin Module
+-   **User Portal**: [https://play-nest.vercel.app/](https://play-nest.vercel.app/)
+-   **Owner Portal**: [https://play-nest-owner.vercel.app/](https://play-nest-owner.vercel.app/)
 
-- **Owner Requests**: Admins can approve or reject requests from users who wish to become owners. If approved, the user will receive an email with a registration link to the owner section.
-- **User and Owner Management**: Admins can view all users and owners registered on the platform.
-- **Turf Management**: Admins can view all turfs listed by owners and manage them as necessary.
-- **Transaction Overview**: Admins have access to all transactions on the platform and can view transaction data on a monthly basis in graph format.
+---
 
-## Technologies Used
+## 💡 Tech Stack Spotlight
 
-- **Frontend**: React, Tailwind CSS, DaisyUI, Redux
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Payments**: Razorpay
-- **Image Hosting**: Cloudinary
+PlayNest is built with a robust and modern tech stack, ensuring high performance and a seamless user experience.
 
+| Category   | Technologies                                                                                                              |
+| :--------- | :------------------------------------------------------------------------------------------------------------------------ |
+| **Frontend** | ⚛️ **React** (Component-based UI), 🎨 **Tailwind CSS** & **DaisyUI** (Rapid Styling), 📦 **Redux** (State Management)   |
+| **Backend** | 🟢 **Node.js** (Runtime Environment), 🚀 **Express.js** (Web Application Framework)                                        |
+| **Database** | 🍃 **MongoDB** (NoSQL Database)                                                                                           |
+| **Services** | 💳 **Razorpay** (Secure Payment Gateway), 🖼️ **Cloudinary** (Optimized Image Hosting)                                    |
 
+---
 
-## Installation
+## ✨ Key Features
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/krishprajapati15/TurfSpot.git
-   ```
-2. Install dependencies for both client and server
-   ```bash
-   cd TurfSpot
-   npm install
-   cd server
-   npm install
-   cd ../client/owner
-   npm install
-   cd ../user
-   npm install
-   ```
-3. Create a `.env` file in the `server` directory and add the following environment variables:
+PlayNest offers a rich set of features tailored to each module:
 
-   ```env
+### 👤 User Module
+
+-   **Browse & Discover**: Easily view various turfs, explore detailed information, and select preferred time slots for booking.
+-   **Effortless Booking**: Securely purchase time slots using **Razorpay**. Receive instant confirmation emails with all booking specifics, including a unique **QR code** for easy access.
+-   **Rate & Review**: Share your experience by providing ratings and reviews for turfs you've booked.
+-   **Become an Owner**: Aspiring turf owners can submit applications directly through the platform, subject to admin review and approval.
+
+### 👑 Owner Module
+
+-   **Comprehensive Turf Management**: Add new turfs, update existing listings, and gain full visibility into all related booking details.
+-   **Insightful Dashboard**: Access a dynamic dashboard presenting transaction data and booking statistics in clear, graphical formats.
+-   **Review Oversight**: View and manage user reviews for your turfs, fostering better engagement.
+
+### 🛠️ Admin Module
+
+-   **Streamlined Owner Requests**: Efficiently approve or reject applications from potential owners. Approved users receive an email with a direct registration link to the owner portal.
+-   **Holistic Management**: Oversee all registered users and owners on the platform.
+-   **Turf Supervision**: View and manage all turfs listed by owners, ensuring platform quality and consistency.
+-   **Financial Overview**: Access a complete record of all platform transactions, with monthly transaction data presented in intuitive graph formats.
+
+---
+
+## ⚙️ Installation Guide
+
+Get PlayNest up and running on your local machine with these simple steps:
+
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/krishprajapati15/PlayNest.git](https://github.com/krishprajapati15/PlayNest.git)
+    ```
+
+2.  **Install Dependencies**
+    Navigate into the respective directories and install the necessary packages:
+
+    ```bash
+    # Install root dependencies
+    cd PlayNest
+    npm install
+
+    # Install server dependencies
+    cd server
+    npm install
+
+    # Install owner client dependencies
+    cd ../client/owner
+    npm install
+
+    # Install user client dependencies
+    cd ../client/user
+    npm install
+    ```
+
+3.  **Environment Setup**
+    Create a `.env` file within the `server` directory and populate it with the following essential variables:
+
+    ```env
     PORT = your_port
-    MONGO_URI=your_mongo_uri
-
-    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-    CLOUDINARY_API_KEY=your_cloudinary_api_key
-    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
+    MONGO_URI = your_mongo_uri
+    CLOUDINARY_CLOUD_NAME = your_cloudinary_cloud_name
+    CLOUDINARY_API_KEY = your_cloudinary_api_key
+    CLOUDINARY_API_SECRET = your_cloudinary_api_secret
     OWNER_URL = your_owner_url
     USER_URL = your_user_url
-
-    EMAIL = your_email for sending emails
-    PASSWORD = your_password for sending emails(you will get from app password in google account)
-
+    EMAIL = your_email
+    PASSWORD = your_password
     RAZORPAY_KEY_ID = your_razorpay_key_id
     RAZORPAY_SECRET_KEY = your_razorpay_secret_key
-   
     JWT_SECRET = your_jwt_secret
+    ```
 
+---
 
-   ```
+## ▶️ How to Run
 
-4. Run the application
+Follow these steps to launch PlayNest locally:
 
-   ```bash
-   # To run the backend
-   cd server
-   npm run server
+1.  **Start the Backend Server**
+    Navigate to the `server` directory and run:
+    ```bash
+    cd server
+    npm run server
+    ```
+    The server will start on the port you specified in your `.env` file.
 
-   # To run the owner client
-   cd ../client/owner
-   npm run dev
+2.  **Start the Owner Portal**
+    From the `client/owner` directory, execute:
+    ```bash
+    cd client/owner
+    npm run dev
+    ```
+    The owner portal will typically run on `http://localhost:5173`.
 
-   # To run the user client
-   cd ../user
-   npm run dev
-   ```
+3.  **Start the User Portal**
+    From the `client/user` directory, execute:
+    ```bash
+    cd client/user
+    npm run dev
+    ```
+    The user portal will typically run on `http://localhost:5174`.
 
-## Contributing
+4.  **Access Your Applications**
+    -   **Backend**: `http://localhost:your_port`
+    -   **Owner Portal**: `http://localhost:5173`
+    -   **User Portal**: `http://localhost:5174`
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
+---
 
+## 🤝 Contribution Guidelines
 
+We welcome contributions to PlayNest! Here's how you can get involved:
+
+1.  **Fork** the repository.
+2.  Create a new branch: `git checkout -b feature/your-feature`.
+3.  **Commit** your changes: `git commit -m 'Add some feature'`.
+4.  **Push** to the branch: `git push origin feature/your-feature`.
+5.  Open a **new Pull Request**.
+
+---
+
+## 👨‍💻 Author
+
+**Krish Prajapati**
+<br>
+GitHub: [@krishprajapati15](https://github.com/krishprajapati15)
+
+---
+
+<div align="center">
+  <sub>Last Updated: 2025-05-23 16:15:08 UTC</sub>
+</div>
