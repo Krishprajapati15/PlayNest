@@ -37,7 +37,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-base-100 to-base-200">
+    <div className="min-h-screen bg-gradient-to-b from-base-100 -mt-6 to-base-200">
       {/* Hero Section */}
       <div className="relative min-h-[85vh] overflow-hidden">
         {/* Background Pattern */}
