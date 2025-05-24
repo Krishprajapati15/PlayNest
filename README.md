@@ -38,6 +38,7 @@ PlayNest is built with a robust and modern tech stack, ensuring high performance
 | **Backend** | 🟢 **Node.js** (Runtime Environment), 🚀 **Express.js** (Web Application Framework)                                        |
 | **Database** | 🍃 **MongoDB** (NoSQL Database)                                                                                           |
 | **Services** | 💳 **Razorpay** (Secure Payment Gateway), 🖼️ **Cloudinary** (Optimized Image Hosting)                                    |
+| **AI** | 🤖 **OpenAI** (Text & Language Intelligence), 🗣️ **Vapi AI** (Voice Interaction & Assistant Integration)  |
 
 ---
 
@@ -47,10 +48,21 @@ PlayNest offers a rich set of features tailored to each module:
 
 ### 👤 User Module
 
--   **Browse & Discover**: Easily view various turfs, explore detailed information, and select preferred time slots for booking.
--   **Effortless Booking**: Securely purchase time slots using **Razorpay**. Receive instant confirmation emails with all booking specifics, including a unique **QR code** for easy access.
--   **Rate & Review**: Share your experience by providing ratings and reviews for turfs you've booked.
--   **Become an Owner**: Aspiring turf owners can submit applications directly through the platform, subject to admin review and approval.
+- **Browse & Discover**: Effortlessly explore a curated list of available turfs, view detailed venue information, and select from a dropdown of pre-filled venues.
+- **View Availability**: Instantly check available time slots for your chosen venue on a specific date, ensuring a seamless scheduling experience.
+- **Effortless Booking with Email Notifications**: Securely reserve your preferred slot by submitting a simple form with your name, date, selected slot, and sport. Upon successful booking, receive an instant confirmation email containing all booking details and a unique QR code for easy access.
+- **Login Email Alerts**: Receive notification emails each time you log in to your account, keeping your profile secure and informed.
+- **Instant Messaging System**: Connect directly with turf owners or support staff through an integrated chat system for prompt assistance.
+- **AI Voice Assistance**: Utilize the built-in intelligent voice assistant to find venues, make bookings, answer inquiries, and navigate the platform hands-free.
+- **Rate & Review**: Provide feedback and share your experiences by rating and reviewing turfs you have booked.
+- **Ownership Application**: Submit applications to become a turf owner directly through the platform, with each application subject to admin review and approval.
+
+## Mail System
+
+The platform incorporates a comprehensive mail system that automatically sends important notifications to users:
+- **Booking Confirmation**: After a successful booking, users receive a detailed confirmation email with booking specifics and a unique QR code.
+- **Login Alerts**: Users are notified via email every time they log in, adding an extra layer of security.
+- **Other Notifications**: The system can be extended to send password resets, updates, and promotional emails as needed.
 
 ### 👑 Owner Module
 
