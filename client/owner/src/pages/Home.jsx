@@ -111,7 +111,7 @@ const Home = () => {
 
                 <Link
                   to="/contact"
-                  className="btn btn-outline btn-lg px-8 hover:bg-base-200/50"
+                  className="btn btn-outline btn-lg px-8 hover:bg-base-200/50 text-gray-700 "
                 >
                   Contact Support
                 </Link>

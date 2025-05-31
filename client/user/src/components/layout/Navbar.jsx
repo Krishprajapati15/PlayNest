@@ -1,10 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import ThemeSwitcher from "../common/ThemeSwitcher";
 
-const navLinks = [
-  { name: "Home", path: "/" },
-  { name: "Turfs", path: "/turfs" },
-];
+const navLinks = [];
 
 const Navbar = () => {
   const location = useLocation();
